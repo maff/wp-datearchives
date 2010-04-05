@@ -1,9 +1,9 @@
 === DateArchives ===
 Contributors:
-Donate link: http://ailoo.net
+Donate link: http://maff.ailoo.net/about/
 Tags: date, archives, blog, posts, overview
 Requires at least: 2.5
-Tested up to: 2.7.1
+Tested up to: 2.9.2
 Stable tag: 0.1
 
 A simple plugin for showing post archives categorized by date.
