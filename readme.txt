@@ -3,7 +3,7 @@ Contributors:
 Donate link: http://maff.ailoo.net/about/
 Tags: date, archives, blog, posts, overview
 Requires at least: 2.5
-Tested up to: 2.9.2
+Tested up to: 3.0.1
 Stable tag: 0.1
 
 A simple plugin for showing post archives categorized by date.
