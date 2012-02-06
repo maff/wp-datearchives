@@ -51,8 +51,6 @@ function DateArchives($headingtag = 'h2', $splitformat = null, $limit = null)
     unset($post);
     unset($posts);
 
-    var_dump($archives);
-
     // now for the output
     foreach ($archives as $heading => $posts) {
         // echo the results as heading tag followed by unordered list
