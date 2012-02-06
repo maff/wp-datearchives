@@ -60,7 +60,13 @@ function DateArchives($headingtag = 'h2', $splitformat = null, $limit = null)
         echo '<ul>', "\n";
 
         foreach ($posts as $post) {
-            echo '	<li><a href="' . get_permalink($post->ID) . '">' . $post->post_title . '</a></li>', "\n";
+            if (empty($post->post_title)) {
+                $postTitle = '(no title)';
+            } else {
+                $postTitle = $post->post_title;
+            }
+
+            echo '	<li><a href="' . get_permalink($post->ID) . '">' . $postTitle . '</a></li>', "\n";
         }
 
         echo '</ul>', "\n\n";
