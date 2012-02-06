@@ -1,9 +1,9 @@
 <?php
 /*
 Plugin Name: DateArchives
-Version: 0.1
-Plugin URI: http://maff.ailoo.net/2008/07/wordpress-plugin-datearchives/
-Description: A simple plugin for showing post archives categorized by date.
+Version: 0.2
+Plugin URI: http://ailoo.net/2008/07/wordpress-plugin-datearchives/
+Description: A simple plugin to show post archives categorized by date.
 Author: Mathias Geat
 Author URI: http://ailoo.net
 */
